@@ -98,6 +98,8 @@ section.Finde div.container{
 }
 section.Finde div.container div{
     background-image: url(assets/img1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 375px;
     min-width: 280px;
     border-radius: 10px;
@@ -112,3 +114,43 @@ section.Finde div.container div p{
     font-weight: bold;
 }
 
+section.stobere{
+    background-image: url(assets/stobere.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    overflow-x: hidden;
+    padding-left: 2.5rem;
+    border-radius: 50px;
+}
+section.stobere div.text-stobere p{
+    font-size: small;
+    margin: 0.2rem;
+}
+section.stobere div.text-stobere{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+section.stobere div.container{
+    width: 100%;
+    overflow-x: auto;
+    display: flex;
+    white-space: nowrap;
+    gap: 20px;
+    padding: 1rem;
+}
+
+section.stobere div.container div{
+    width: 330px;
+}
+
+
+section.stobere div.container div img{
+    width: 330px;
+}
+
+section.stobere div.container div p{
+    white-space: wrap;
+}
