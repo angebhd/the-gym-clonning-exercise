@@ -105,6 +105,10 @@ div.container {
     gap: 20px;
     padding: 1rem;
 }
+/* green span */
+section div.container div p span {
+    background-color: #57CA61;
+}
 
 
 section {
@@ -228,9 +232,6 @@ section.stobere div.container div p {
     white-space: wrap;
 }
 
-section.stobere div.container div p span {
-    background-color: #57CA61;
-}
 
 section.freee{
     display: flex;
@@ -244,3 +245,88 @@ section.freee div img{
     border-radius: 40px;
     height: 405px;
 }
+section.finde2 div.container div{
+    width: 345px;
+    white-space:wrap;
+}
+section.finde2 div.container div img{
+    height: 260px;
+    border-radius: 20px;
+}
+
+section.finde-private{
+    display: flex;
+}
+
+section.finde-private div.finde-private-div{
+    width: 24%;
+}
+
+section.finde-private div.container{
+    width: 75%;
+}
+
+section.finde-private div.container div{
+    width: 235px;
+    height: 315px;
+    background-image: url(assets/main.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    border-radius: 30px;
+}
+section.finde-private div.container div a{
+    color: white;
+    text-decoration: none;
+
+}
+
+section.icons{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 1rem;
+}
+section.icons div{
+    width: 340px;
+}
+section.icons div img {
+    width: 50px;
+}
+section.icons div p{
+    margin: 0.1rem;
+}
+section.icons div p.title{
+    font-weight: bold;
+    margin: 0.2rem;
+}
+
+section.vermieten{
+    border-radius: 3%;
+    overflow: hidden;
+}
+section.vermieten div.text{
+    width: 470px;
+    height: 500px;
+    padding: 2rem;
+    position:absolute;
+    background-color: white;
+    /* margin: 50px; */
+    margin-top: 10%;
+    margin-left: 5%;
+    border-radius: 30px;
+}
+section.vermieten div.text h2{
+    font-size: xx-large;
+}
+section.vermieten div.text button{
+    background-color: #191E3B;
+    color: white;
+    padding: 1rem;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
