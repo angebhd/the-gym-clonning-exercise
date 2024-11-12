@@ -2,7 +2,9 @@
 body {
     margin: 0;
 }
-
+img{
+    max-width: 100%;
+}
 header {
     display: flex;
     justify-content: space-evenly;
@@ -46,7 +48,7 @@ header div.nav-bar a {
 /* main*/
 
 main {
-    height: 80vh;
+    height: 75vh;
     min-height: 512px;
     background-image: url(assets/main.jpg);
     background-repeat: no-repeat;
@@ -61,7 +63,7 @@ main p {
     color: white;
     font-size: 3rem;
     font-weight: bold;
-    width: 80%;
+    width: 75%;
     margin: 0.5rem;
 }
 
@@ -69,7 +71,7 @@ main form {
     background-color: #F7F7F8;
     padding: 1rem;
     border-radius: 20px;
-    width: 80%;
+    width: 75%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -94,10 +96,45 @@ main form button {
 
 }
 
+/* General for conatiners */
+div.container {
+    width: 100%;
+    overflow-x:scroll;
+    display: flex;
+    white-space: nowrap;
+    gap: 20px;
+    padding: 1rem;
+}
+
+
 section {
     max-width: 1500px;
     margin: 10px auto;
     color: #191E3B;
+}
+section.Diese {
+    overflow-x: hidden;
+}
+/* section.Diese div.container {
+    width: 100%;
+    overflow-x: auto;
+    display: flex;
+    white-space: nowrap;
+    gap: 20px;
+    padding: 1rem;
+} */
+section.Diese div.container div{
+    width: 350px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+section.Diese div.container div p{
+    margin: 0.2rem;
+    padding: 0.4rem;
+}
+section.Diese img{
+    height: 200px;
 }
 
 section.Finde {
@@ -184,6 +221,7 @@ section.stobere div.container div {
 
 section.stobere div.container div img {
     width: 330px;
+    border-radius: 20px;
 }
 
 section.stobere div.container div p {
