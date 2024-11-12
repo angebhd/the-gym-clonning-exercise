@@ -330,3 +330,36 @@ section.vermieten div.text button{
     font-weight: bold;
 }
 
+section.was-ist p{
+    font-size: smaller;
+    text-align: justify;
+}
+section.was-ist p a{
+    text-decoration: none;
+    color: #1668E3;
+}
+
+section.beliebte div.drop-down{
+    margin-left: 1rem;
+}
+section.beliebte div.drop-down div.btn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+section.beliebte div.drop-down div.btn span img {
+    width: 32px;
+}
+section.beliebte div.drop-down div.btn p{
+    font-weight: bold;
+}
+
+footer{
+    background-color: #F7F7F8;
+}
+footer div.footer{
+    width: 80%;
+    margin-left:auto ;
+    margin-right: auto;
+}
